@@ -1,0 +1,19 @@
+#container {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .draggable {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: lightblue;
+    cursor: grab;
+    border: 1px solid #000;
+  }
+  
+  .draggable.dragging {
+    opacity: 0.5;
+    background-color: lightgreen;
+  }
+  
